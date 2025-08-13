@@ -820,14 +820,12 @@ export default function Page() {
         </div>
 
         <div className="relative z-10">
-          <div className="text-center font-bold text-4xl lg:text-5xl mb-20 text-[#1d3261] heading">
+          <div className="text-center font-bold text-4xl lg:text-5xl mb-20 text-[#1d3261]">
             PAST EVENTS
           </div>
           
           <div className="w-full max-w-7xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
-              
-              {/* Cultural Festival Event - March 2024 (Most Recent) */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
