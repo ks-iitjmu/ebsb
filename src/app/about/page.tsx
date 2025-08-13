@@ -552,10 +552,11 @@ export default function page() {
             AT IIT JAMMU
           </p>
           <p className="text-[#c8e0f3] max-w-4xl mx-auto text-lg leading-relaxed mb-40">
-            Imagine a place where India's rich cultural heritage is not just
-            celebrated but actively woven into the daily fabric of campus life.
-            This is the essence of Ek Bharat Shreshtha Bharat at IIT Jammu - the
-            cultural heartbeat that breathes new life into our campus community.
+            Imagine a place where India&apos;s rich cultural heritage is not
+            just celebrated but actively woven into the daily fabric of campus
+            life. This is the essence of Ek Bharat Shreshtha Bharat at IIT Jammu
+            - the cultural heartbeat that breathes new life into our campus
+            community.
           </p>
         </div>
       </section>
@@ -783,10 +784,11 @@ export default function page() {
                 Vallabhbhai Patel.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                The Hon'ble Prime Minister propounded that cultural diversity is
-                a joy that ought to be celebrated through mutual interaction &
-                reciprocity between people of different States and UTs so that a
-                common spirit of understanding resonates throughout the country.
+                The Hon&apos;ble Prime Minister propounded that cultural
+                diversity is a joy that ought to be celebrated through mutual
+                interaction & reciprocity between people of different States and
+                UTs so that a common spirit of understanding resonates
+                throughout the country.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 At IIT Jammu, we implement this vision by creating opportunities

@@ -553,8 +553,8 @@ export default function Page() {
             SHRESTHA BHARAT
           </h1>
           <p className="text-[#c8e0f3] mb-40 px-8 text-center">
-            " Sardar Patel gave us Ek Bharat, it is now the solemn duty of 125
-            crore Indians to collectively make Shrestha Bharat. "
+            &ldquo; Sardar Patel gave us Ek Bharat, it is now the solemn duty of
+            125 crore Indians to collectively make Shrestha Bharat. &rdquo;
           </p>
           <Link
             href={"https://ekbharat.gov.in/"}
@@ -581,7 +581,7 @@ export default function Page() {
       <section>
         <p className="text-[#1d3261] mb-40 lg:mx-90 mx-10 mt-20 text-center">
           Ek Bharat Shreshtha Bharat (EBSB) is a cultural extravaganza that
-          brings together the rich tapestry of India's diverse cultures and
+          brings together the rich tapestry of India&apos;s diverse cultures and
           traditions.At IIT Jammu, we take immense pride in celebrating our
           unity in diversity through various events and festivals that showcase
           the beauty and depth of Indian culture.
@@ -892,9 +892,9 @@ export default function Page() {
                               Rashtriya Ekta Diwas
                             </h3>
                             <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              Commemorating Sardar Vallabhbhai Patel's legacy
-                              with unity walks, cultural programs, and inspiring
-                              speeches about national integration.
+                              Commemorating Sardar Vallabhbhai Patel&apos;s
+                              legacy with unity walks, cultural programs, and
+                              inspiring speeches about national integration.
                             </p>
                           </div>
                           <div className="flex items-center justify-between">
@@ -978,8 +978,8 @@ export default function Page() {
                             </h3>
                             <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
                               Displaying traditional and contemporary artworks
-                              that reflect India's rich cultural heritage and
-                              artistic diversity.
+                              that reflect India&apos;s rich cultural heritage
+                              and artistic diversity.
                             </p>
                           </div>
                           <div className="flex items-center justify-between">
