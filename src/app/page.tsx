@@ -820,7 +820,7 @@ export default function Page() {
         </div>
 
         <div className="relative z-10">
-          <div className="text-center font-bold text-4xl lg:text-5xl mb-20 text-[#1d3261]">
+          <div className="text-center font-bold text-3xl mb-16 text-[#1d3261]">
             PAST EVENTS
           </div>
           
