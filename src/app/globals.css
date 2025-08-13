@@ -178,7 +178,6 @@ body {
   opacity: 1;
 }
 
-/* Team page specific styles */
 .transform-style-preserve-3d {
   transform-style: preserve-3d;
 }
@@ -203,7 +202,6 @@ body {
   transform: rotateY(3deg) rotateX(2deg);
 }
 
-/* Team card shimmer effect */
 .team-card .bg-white::after {
   content: "";
   position: absolute;
@@ -228,7 +226,6 @@ body {
   opacity: 1;
 }
 
-/* Cool 3D card effects */
 .card-inner {
   transform-style: preserve-3d;
 }
@@ -245,7 +242,6 @@ body {
   transform: rotateY(12deg);
 }
 
-/* Cool shimmer animation */
 @keyframes shimmer-slide {
   0% {
     transform: translateX(-100%);
@@ -255,7 +251,6 @@ body {
   }
 }
 
-/* Cool pulse animation for dots */
 @keyframes pulse-glow {
   0%, 100% {
     opacity: 1;
@@ -267,7 +262,6 @@ body {
   }
 }
 
-/* Cool floating animation */
 @keyframes float {
   0%, 100% {
     transform: translateY(0px);
@@ -281,7 +275,6 @@ body {
   animation: float 3s ease-in-out infinite;
 }
 
-/* Cool gradient border animation */
 @keyframes gradient-shift {
   0% {
     background-position: 0% 50%;
@@ -299,7 +292,6 @@ body {
   animation: gradient-shift 3s ease infinite;
 }
 
-/* Cool category header effects */
 .category-header::before {
   content: '';
   position: absolute;
