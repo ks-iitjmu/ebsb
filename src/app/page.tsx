@@ -811,13 +811,6 @@ export default function Page() {
             ))}
           </div>
         </div>
-        <div className="text-center mt-12">
-          <Link href="/gallery">
-            <div className="bg-[#1d3261] text-[#c8e0f3] font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform duration-300 inline-block">
-              VIEW ALL PHOTOS
-            </div>
-          </Link>
-        </div>
       </section>
       <section className="py-20 bg-[#c8e0f3] overflow-hidden relative">
         <div className="absolute inset-0 opacity-10">

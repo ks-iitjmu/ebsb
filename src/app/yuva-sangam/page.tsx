@@ -550,7 +550,7 @@ export default function YuvaSangamPage() {
           <h1 className="text-[#c8e0f3] heading font-black text-4xl lg:text-6xl text-center mt-80 mb-10 tracking-widest">
             YUVA SANGAM
           </h1>
-          <p className="text-[#c8e0f3] mb-40 px-60 text-center">
+          <p className="text-[#c8e0f3] mb-40 px-4 lg:px-60 text-center">
             Initiated by the Government of India, this program aims to provide
             participants with a deep understanding of the diverse cultural,
             traditional, and developmental aspects of different states while
@@ -646,7 +646,7 @@ export default function YuvaSangamPage() {
                   alt="Director IIT Jammu"
                   width={600}
                   height={700}
-                  className="w-full h-64 lg:h-full object-cover"
+                  className="w-full min-h-[400px] lg:h-full object-cover object-[center_15%]"
                 />
               </div>
               <div className="lg:w-3/5 p-6 lg:p-12 flex flex-col justify-center">
@@ -669,30 +669,30 @@ export default function YuvaSangamPage() {
                   <p>
                     Under his visionary leadership, IIT Jammu has actively
                     embraced the EBSB mission, fostering deep connections
-                    between students from different states and promoting India's
-                    rich cultural diversity. The institute regularly hosts Yuva
-                    Sangam programs that bring together young minds from across
-                    the nation.
+                    between students from different states and promoting
+                    India&apos;s rich cultural diversity. The institute
+                    regularly hosts Yuva Sangam programs that bring together
+                    young minds from across the nation.
                   </p>
 
                   <p>
-                    Prof Gaur's commitment to national integration is evident in
-                    IIT Jammu's approach to education, where students from
-                    various cultural backgrounds collaborate, learn from each
-                    other, and develop a profound appreciation for India's unity
-                    in diversity.
+                    Prof Gaur&apos;s commitment to national integration is
+                    evident in IIT Jammu&apos;s approach to education, where
+                    students from various cultural backgrounds collaborate,
+                    learn from each other, and develop a profound appreciation
+                    for India&apos;s unity in diversity.
                   </p>
 
                   <p>
                     Through his leadership in the EBSB Yuva Sangam initiatives,
                     Prof Gaur has positioned IIT Jammu as a bridge between
                     different cultures, languages, and traditions, embodying
-                    Sardar Patel's vision of a united and strong India.
+                    Sardar Patel&apos;s vision of a united and strong India.
                   </p>
 
                   <p>
                     His dedication to creating future leaders who understand and
-                    celebrate India's cultural mosaic has made IIT Jammu a
+                    celebrate India&apos;s cultural mosaic has made IIT Jammu a
                     beacon of the Ek Bharat Shreshtha Bharat movement, inspiring
                     students to become ambassadors of national unity and
                     cultural harmony.
@@ -712,17 +712,17 @@ export default function YuvaSangamPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-[#1d3261] text-lg leading-relaxed mb-6">
-                Jammu, known as the "City of Temples," is a city steeped in
-                history and rich in cultural diversity. The winter capital of
-                Jammu & Kashmir, it stands as a testament to the confluence of
-                various cultures and traditions that have flourished in this
-                region for centuries.
+                Jammu, known as the &quot;City of Temples,&quot; is a city
+                steeped in history and rich in cultural diversity. The winter
+                capital of Jammu & Kashmir, it stands as a testament to the
+                confluence of various cultures and traditions that have
+                flourished in this region for centuries.
               </p>
               <p className="text-[#1d3261] text-lg leading-relaxed">
                 From the magnificent Vaishno Devi shrine attracting millions of
                 devotees annually, to the historic Bahu Fort overlooking the
                 Tawi River, Jammu showcases architectural marvels and spiritual
-                significance. The city's strategic location has made it a
+                significance. The city&apos;s strategic location has made it a
                 cultural melting pot, blending Dogri traditions with influences
                 from across the Indian subcontinent.
               </p>
@@ -863,7 +863,7 @@ export default function YuvaSangamPage() {
             JOIN YUVA SANGAM AT IIT JAMMU
           </h2>
           <p className="text-[#1d3261] text-lg leading-relaxed mb-8">
-            Be part of this incredible journey to explore India's cultural
+            Be part of this incredible journey to explore India&apos;s cultural
             diversity and strengthen the bonds of unity. Experience the beauty
             of Jammu & Kashmir while contributing to the noble vision of Ek
             Bharat Shreshtha Bharat.

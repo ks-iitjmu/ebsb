@@ -116,21 +116,6 @@ export default function Header() {
                 <div>Team</div>
               </div>
             </Link>
-
-            <Link href="/gallery" onClick={closeMenu}>
-              <div className="flex flex-row text-xl items-center my-4 py-2 ml-2">
-                <div className="w-[4rem] flex justify-center px-2 mr-4">
-                  <Image
-                    className="h-[2rem] self-center"
-                    src="/gallery.svg"
-                    alt="Gallery"
-                    width={32}
-                    height={32}
-                  />
-                </div>
-                <div>Gallery</div>
-              </div>
-            </Link>
           </div>
           <Image
             src="/menu.svg"
@@ -153,9 +138,6 @@ export default function Header() {
           </Link>
           <Link href="/team">
             <div className="hidden lg:block">Team</div>
-          </Link>
-          <Link href="/gallery">
-            <div className="hidden lg:block">Gallery</div>
           </Link>
         </div>
         <Link href="/">
