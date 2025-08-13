@@ -820,268 +820,310 @@ export default function Page() {
         </div>
 
         <div className="relative z-10">
-          <div className="text-center font-bold text-4xl mb-20 text-[#1d3261]">
+          <div className="text-center font-bold text-4xl lg:text-5xl mb-20 text-[#1d3261] heading">
             PAST EVENTS
           </div>
-          <div className="relative max-w-7xl mx-auto px-4">
-            <div className="carousel-container relative py-8 px-8">
-              <div className="carousel-track flex gap-8 animate-event-carousel">
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
+          
+          <div className="w-full max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+              
+              {/* Cultural Festival Event - March 2024 (Most Recent) */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
                       <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#1d3261] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">🎭</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                March 2024
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
                               Cultural Festival 2024
-                            </span>
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Annual Cultural Extravaganza
+                            </h5>
                           </div>
                         </div>
+                        
                         <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Annual Cultural Extravaganza
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              A magnificent celebration showcasing diverse
-                              Indian cultures with traditional dances, music
-                              performances, and art exhibitions.
-                            </p>
-                          </div>
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            A magnificent celebration showcasing diverse Indian cultures with traditional dances, music performances, and art exhibitions.
+                          </p>
+                          
                           <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              March 2024
-                            </span>
                             <div className="flex space-x-1">
                               <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
                               <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
                               <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
                             </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#1d3261] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
-                      <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#ff6b6b] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                              Unity Day Celebration
-                            </span>
-                          </div>
-                        </div>
-                        <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Rashtriya Ekta Diwas
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              Commemorating Sardar Vallabhbhai Patel&apos;s
-                              legacy with unity walks, cultural programs, and
-                              inspiring speeches about national integration.
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              October 2023
-                            </span>
-                            <div className="flex space-x-1">
-                              <div className="w-2 h-2 bg-[#ff6b6b] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#ffa500] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#ff6b6b] rounded-full"></div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#ff6b6b] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#ff6b6b] rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
-                      <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#4ecdc4] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                              Food Festival
-                            </span>
-                          </div>
-                        </div>
-                        <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Flavors of India
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              A culinary journey across India featuring
-                              authentic regional cuisines, cooking
-                              demonstrations, and traditional recipes from every
-                              state.
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              January 2024
-                            </span>
-                            <div className="flex space-x-1">
-                              <div className="w-2 h-2 bg-[#4ecdc4] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#44a08d] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#4ecdc4] rounded-full"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#4ecdc4] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#4ecdc4] rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
-                      <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#667eea] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                              Art Exhibition
-                            </span>
-                          </div>
-                        </div>
-                        <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Heritage Art Showcase
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              Displaying traditional and contemporary artworks
-                              that reflect India&apos;s rich cultural heritage
-                              and artistic diversity.
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              December 2023
-                            </span>
-                            <div className="flex space-x-1">
-                              <div className="w-2 h-2 bg-[#667eea] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#764ba2] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#667eea] rounded-full"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#667eea] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#667eea] rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
-                      <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#f093fb] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                              Youth Summit
-                            </span>
-                          </div>
-                        </div>
-                        <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Yuva Sangam Conference
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              Empowering young minds through discussions on
-                              leadership, innovation, and cultural exchange
-                              across Indian states.
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              February 2024
-                            </span>
-                            <div className="flex space-x-1">
-                              <div className="w-2 h-2 bg-[#f093fb] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#f5576c] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#f093fb] rounded-full"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#f093fb] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#f093fb] rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="event-card group relative flex-shrink-0 w-80 h-96 perspective-1000">
-                  <div className="card-inner relative w-full h-full transition-transform duration-700 transform-style-preserve-3d group-hover:rotate-y-6 group-hover:rotate-x-3">
-                    <div className="card-front absolute inset-0 bg-white rounded-2xl border border-white/50 backface-hidden overflow-hidden">
-                      <div className="relative p-6 h-full flex flex-col">
-                        <div className="event-image-container relative h-48 rounded-xl overflow-hidden mb-4">
-                          <div className="w-full h-full bg-[#1d3261] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                              Cultural Festival 2024
-                            </span>
-                          </div>
-                        </div>
-                        <div className="flex-1 flex flex-col justify-between">
-                          <div>
-                            <h3 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
-                              Annual Cultural Extravaganza
-                            </h3>
-                            <p className="text-[#1d3261]/70 text-sm leading-relaxed mb-4">
-                              A magnificent celebration showcasing diverse
-                              Indian cultures with traditional dances, music
-                              performances, and art exhibitions.
-                            </p>
-                          </div>
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-semibold text-[#1d3261]/50 bg-[#c8e0f3]/50 px-3 py-1 rounded-full">
-                              March 2024
-                            </span>
-                            <div className="flex space-x-1">
-                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
-                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="absolute top-4 right-4 w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                        <div className="w-6 h-6 border-2 border-[#1d3261] rounded-full flex items-center justify-center">
-                          <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
-                        </div>
-                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* Youth Summit Event - February 2024 */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
+                      <div className="relative p-6 h-full flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">🧑‍�</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                February 2024
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
+                              Yuva Sangam Conference
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Youth Summit
+                            </h5>
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 flex flex-col justify-between">
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            Empowering young minds through discussions on leadership, innovation, and cultural exchange across Indian states.
+                          </p>
+                          
+                          <div className="flex items-center justify-between">
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                            </div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Food Festival Event - January 2024 */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
+                      <div className="relative p-6 h-full flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">🍛</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                January 2024
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
+                              Flavors of India
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Food Festival
+                            </h5>
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 flex flex-col justify-between">
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            A culinary journey across India featuring authentic regional cuisines, cooking demonstrations, and traditional recipes from every state.
+                          </p>
+                          
+                          <div className="flex items-center justify-between">
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                            </div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Art Exhibition Event - December 2023 */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
+                      <div className="relative p-6 h-full flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">🎨</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                December 2023
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
+                              Heritage Art Showcase
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Art Exhibition
+                            </h5>
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 flex flex-col justify-between">
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            Displaying traditional and contemporary artworks that reflect India&apos;s rich cultural heritage and artistic diversity.
+                          </p>
+                          
+                          <div className="flex items-center justify-between">
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                            </div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Heritage Walk Event - November 2023 */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
+                      <div className="relative p-6 h-full flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">�️</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                November 2023
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
+                              Heritage Walk
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Cultural Heritage Tour
+                            </h5>
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 flex flex-col justify-between">
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            Exploring the historical landmarks and cultural sites of Jammu, connecting students with the rich heritage of the region.
+                          </p>
+                          
+                          <div className="flex items-center justify-between">
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                            </div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Unity Day Event - October 2023 (Oldest) */}
+              <div className="group relative w-full max-w-sm">
+                <div className="relative h-80 perspective-1000">
+                  <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
+                    <div className="absolute inset-0 w-full h-full bg-white rounded-xl overflow-hidden backface-hidden shadow-lg border-l-4 border-[#1d3261]">
+                      <div className="relative p-6 h-full flex flex-col">
+                        <div className="flex items-start justify-between mb-4">
+                          <div className="flex-1">
+                            <div className="flex items-center gap-3 mb-3">
+                              <div className="w-12 h-12 bg-[#1d3261] rounded-lg flex items-center justify-center">
+                                <span className="text-white font-bold text-lg">🇮�</span>
+                              </div>
+                              <span className="inline-block bg-[#1d3261] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                                October 2023
+                              </span>
+                            </div>
+                            <h4 className="text-xl font-bold text-[#1d3261] mb-2 group-hover:text-[#0f1a3d] transition-colors">
+                              Rashtriya Ekta Diwas
+                            </h4>
+                            <h5 className="text-[#1d3261]/70 font-semibold text-sm mb-4 uppercase tracking-wider">
+                              Unity Day Celebration
+                            </h5>
+                          </div>
+                        </div>
+                        
+                        <div className="flex-1 flex flex-col justify-between">
+                          <p className="text-[#1d3261]/60 text-sm leading-relaxed mb-4">
+                            Commemorating Sardar Vallabhbhai Patel&apos;s legacy with unity walks, cultural programs, and inspiring speeches about national integration.
+                          </p>
+                          
+                          <div className="flex items-center justify-between">
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#c8e0f3] rounded-full"></div>
+                              <div className="w-2 h-2 bg-[#1d3261] rounded-full"></div>
+                            </div>
+                            <div className="text-xs text-[#1d3261]/50 font-medium">
+                              View Details →
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-r from-[#1d3261] to-[#c8e0f3] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
+          
           <div className="text-center mt-16">
             <Link href="/events">
               <div className="bg-[#1d3261] text-[#c8e0f3] font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform duration-300 inline-block">

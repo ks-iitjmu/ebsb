@@ -844,15 +844,27 @@ export default function YuvaSangamPage() {
             </div>
           </div>
 
-          <div className="mt-12 bg-[#1d3261] rounded-xl p-8 text-center">
-            <h3 className="text-2xl font-bold text-[#c8e0f3] mb-4">
+          <div className="mt-12 bg-[#1d3261] rounded-xl p-4 text-center">
+            <h3 className="text-2xl font-bold text-[#c8e0f3] mb-3">
               Campus Location
             </h3>
-            <p className="text-[#c8e0f3] text-lg">
+            <p className="text-[#c8e0f3] text-lg mb-4">
               IIT Jammu is located in Nagrota, Jammu, easily accessible via
               NH44. Look for the prominent IIT Jammu signboards along the
               highway.
             </p>
+            <div className="w-full">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.576269321464!2d74.8936900762718!3d32.80349287365258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391e814038301e31%3A0xe3a42e213df5c738!2sIndian%20Institute%20of%20Technology%2C%20Jammu!5e1!3m2!1sen!2sin!4v1755110689601!5m2!1sen!2sin" 
+                width="100%" 
+                height="500" 
+                style={{border: 0}} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
