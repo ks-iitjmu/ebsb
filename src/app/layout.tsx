@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Audiowide, Poppins, Bowlby_One} from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Audiowide,
+  Poppins,
+  Bowlby_One,
+} from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import "./globals.css";
