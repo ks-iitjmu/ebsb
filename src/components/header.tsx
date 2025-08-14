@@ -155,7 +155,7 @@ export default function Header() {
             alt="IITJMU Logo"
             width={1000}
             height={1000}
-            className="hidden w-16 lg:block lg:mx-8 bg-white rounded-full p-1"
+            className="hidden w-16 lg:block lg:mx-8 bg-white rounded"
           />
         </Link>
       </div>

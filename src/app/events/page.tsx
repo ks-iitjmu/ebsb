@@ -351,12 +351,18 @@ export default function EventsPage() {
           <p className="text-[#1d3261] mb-8 text-lg">
             Join us in celebrating the unity in diversity of our great nation through cultural events and festivals.
           </p>
-          <div className="flex justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="/team"
+              className="bg-[#1d3261] text-[#c8e0f3] font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform duration-300"
+            >
+              KNOW ABOUT OUR TEAM
+            </a>
             <a
               href="https://www.iitjammu.ac.in/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1d3261] text-[#c8e0f3] font-bold px-8 py-3 rounded-lg hover:scale-105 transition-transform duration-300"
+              className="bg-transparent border-2 border-[#1d3261] text-[#1d3261] font-bold px-8 py-3 rounded-lg hover:bg-[#1d3261] hover:text-[#c8e0f3] transition-all duration-300"
             >
               VISIT IIT JAMMU WEBSITE
             </a>

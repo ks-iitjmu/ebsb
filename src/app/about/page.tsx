@@ -856,6 +856,31 @@ export default function page() {
           </div>
         </div>
       </section>
+      <section className="py-16 bg-[#c8e0f3] text-center">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-[#1d3261] heading font-bold text-3xl lg:text-4xl mb-6">
+            JOIN OUR CULTURAL JOURNEY
+          </h2>
+          <p className="text-[#1d3261]/80 mb-8 text-lg leading-relaxed">
+            Experience the vibrant celebrations of unity in diversity! Discover upcoming cultural festivals, 
+            traditional performances, and engaging activities that bring together the rich heritage of India.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="/events"
+              className="bg-[#1d3261] text-[#c8e0f3] font-bold px-8 py-3 rounded-lg hover:scale-105 hover:shadow-lg transition-all duration-300"
+            >
+              EXPLORE OUR EVENTS
+            </a>
+            <a
+              href="/yuva-sangam"
+              className="bg-transparent border-2 border-[#1d3261] text-[#1d3261] font-bold px-8 py-3 rounded-lg hover:bg-[#1d3261] hover:text-[#c8e0f3] transition-all duration-300"
+            >
+              LEARN ABOUT YUVA SANGAM
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
