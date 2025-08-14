@@ -77,9 +77,7 @@ export default function EventsPage() {
 
   return (
     <div className="min-h-screen bg-[#c8e0f3]">
-      {/* Hero Section with decorative elements */}
       <section className="relative overflow-hidden bg-[#1d3261]">
-        {/* Decorative SVG patterns - same as home page */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute -top-20 -left-20 w-80 h-80 transform rotate-12 hidden lg:block">
             <svg viewBox="0 0 200 200" className="w-full h-full">
@@ -206,8 +204,6 @@ export default function EventsPage() {
             </svg>
           </div>
         </div>
-
-        {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center justify-center">
           <h1 className="text-[#c8e0f3] heading font-black text-4xl lg:text-6xl text-center mt-80 mb-5 tracking-widest">
             EVENTS
@@ -238,10 +234,7 @@ export default function EventsPage() {
           Through cultural festivals, performances, and exhibitions, we showcase the rich heritage and traditions that make India truly incredible.
         </p>
       </section>
-
-      {/* Events Section */}
       <section className="px-4 lg:px-8 py-16">
-        {/* Tab Buttons */}
         <div className="flex justify-center mb-12">
           <div className="bg-[#1d3261] rounded-lg p-1 flex">
             <button
@@ -266,8 +259,6 @@ export default function EventsPage() {
             </button>
           </div>
         </div>
-
-        {/* Events Grid */}
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {filteredEvents.map((event) => (
@@ -341,8 +332,6 @@ export default function EventsPage() {
           )}
         </div>
       </section>
-
-      {/* Call to Action Section */}
       <section className="bg-[#c8e0f3] py-16 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-[#1d3261] heading font-bold text-3xl lg:text-4xl mb-6">
@@ -359,12 +348,10 @@ export default function EventsPage() {
               KNOW ABOUT OUR TEAM
             </a>
             <a
-              href="https://www.iitjammu.ac.in/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/yuva-sangam"
               className="bg-transparent border-2 border-[#1d3261] text-[#1d3261] font-bold px-8 py-3 rounded-lg hover:bg-[#1d3261] hover:text-[#c8e0f3] transition-all duration-300"
             >
-              VISIT IIT JAMMU WEBSITE
+             Know About Yuva Sangam
             </a>
           </div>
         </div>

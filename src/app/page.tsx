@@ -873,8 +873,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Youth Summit Event - February 2024 */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
@@ -922,8 +920,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Food Festival Event - January 2024 */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
@@ -971,8 +967,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Art Exhibition Event - December 2023 */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
@@ -1020,8 +1014,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Heritage Walk Event - November 2023 */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
@@ -1069,8 +1061,6 @@ export default function Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Unity Day Event - October 2023 (Oldest) */}
               <div className="group relative w-full max-w-sm">
                 <div className="relative h-80 perspective-1000">
                   <div className="card-inner relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:scale-105 group-hover:-rotate-1">
