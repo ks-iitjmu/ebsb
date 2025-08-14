@@ -40,7 +40,7 @@ const bowlbyOne = Bowlby_One({
 
 export const metadata: Metadata = {
   title: "EBSB IITJMU",
-  description: "",
+  description: "Ek Bharat Shreshtha Bharat - IIT Jammu. Celebrating unity in diversity through cultural exchange and educational initiatives.",
 };
 
 export default function RootLayout({
