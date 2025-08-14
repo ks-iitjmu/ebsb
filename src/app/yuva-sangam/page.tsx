@@ -994,9 +994,9 @@ export default function YuvaSangamPage() {
               Campus Location
             </h3>
 
-            <div className="group relative max-w-5xl mx-auto">
-              <div className="relative perspective-1000">
-                <div className="relative w-full bg-gradient-to-br from-[#1d3261] via-[#2d4371] to-[#1d3261] rounded-2xl overflow-hidden shadow-2xl transform group-hover:scale-105 transition-all duration-700">
+            <div className="relative max-w-5xl mx-auto">
+              <div className="relative">
+                <div className="relative w-full bg-gradient-to-br from-[#1d3261] via-[#2d4371] to-[#1d3261] rounded-2xl overflow-hidden shadow-2xl">
                   <div className="absolute inset-0 opacity-10">
                     <div className="absolute top-4 right-4 w-16 h-16 border-2 border-[#c8e0f3] rounded-full animate-pulse"></div>
                     <div className="absolute bottom-6 left-6 w-8 h-8 bg-[#c8e0f3] rounded-full animate-bounce"></div>
@@ -1008,7 +1008,7 @@ export default function YuvaSangamPage() {
                     <div className="mb-6">
                       <div className="flex items-center justify-center mb-4">
                         <div className="relative mr-3">
-                          <div className="w-12 h-12 bg-[#c8e0f3] rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+                          <div className="w-12 h-12 bg-[#c8e0f3] rounded-full flex items-center justify-center">
                             <span className="text-[#1d3261] font-bold text-lg">📍</span>
                           </div>
                         </div>
@@ -1027,15 +1027,13 @@ export default function YuvaSangamPage() {
                         allowFullScreen={true} 
                         loading="lazy" 
                         referrerPolicy="no-referrer-when-downgrade"
-                        className="rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-700"
+                        className="rounded-lg shadow-lg"
                       />
                     </div>
                   </div>
 
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 group-hover:translate-x-full transition-all duration-1000 transform -translate-x-full"></div>
                 </div>
               </div>
-              <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-3/4 h-4 bg-black/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           </div>
         </div>
