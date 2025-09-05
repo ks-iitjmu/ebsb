@@ -112,6 +112,18 @@ export default function TeamPage() {
         },
       ],
     },
+    {
+      category: "Website Development",
+      members: [
+        {
+          name: "Kunal Sharma",
+          role: "Web Dev Head",
+          position: "Head",
+          description: "Development and Handling of our Official Website.",
+          image: "/team/kunal.jpg",
+        },
+      ],
+    },
   ];
 
   return (
@@ -816,15 +828,14 @@ export default function TeamPage() {
             </div>
 
             <div
-              className={`grid gap-8 justify-items-center ${
-                category.members.length === 1
+              className={`grid gap-8 justify-items-center ${category.members.length === 1
                   ? "grid-cols-1 justify-center"
                   : category.members.length === 2
-                  ? "grid-cols-1 md:grid-cols-2 justify-center max-w-2xl mx-auto"
-                  : category.members.length === 3
-                  ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto"
-                  : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-              }`}
+                    ? "grid-cols-1 md:grid-cols-2 justify-center max-w-2xl mx-auto"
+                    : category.members.length === 3
+                      ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto"
+                      : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+                }`}
             >
               {category.members.map((member, memberIndex) => (
                 <div
